@@ -8,23 +8,41 @@ The application is deployed via GitHub Pages and is publicly accessible here:
 
 [Live Demo Link](https://ElisabethPO.github.io/Phone-catalog-react-ts/)
 
+## 🎨 Design Reference
+This project is implemented based on the following design specification:
+
+https://www.figma.com/design/BUusqCIMAWALqfBahnyIiH/Phone-catalog--V2--Original-Dark?node-id=0-1&p=f&t=nj1T56VpqpPXVnB1-0
+
 ## 💻 Technologies Used
 
-The project is built using a modern frontend stack:
+## Core
+* **React** (v18.2.0) - UI framework
+* **TypeScript** (v5.0.2) - Type safety
+* **SCSS** (v7.0.3) - Styling
 
-* **React:** Frontend library for building the user interface.
-* **TypeScript:** Adds static type definitions to ensure code quality and maintainability.
-* **SCSS/SASS:** CSS preprocessor for modular and powerful styling.
-* **Vite:** Fast build tool for local development and optimized production bundles.
-* **Swiper:** Library used for creating responsive product carousels.
-* **Headless UI:** Unstyled, accessible UI components (e.g., for dropdowns and selects).
+## UI/UX
+* **React Router** (v6.14.2) - Navigation
+* **Swiper** - Image galleries
+* **use-react-router-breadcrumbs** (v4.0.1) - Navigation breadcrumbs
+* **React Loading Skeleton** (v3.3.1) - Loading states
+
+## Development & Deployment
+* **Vite** (v4.4.5) - Build tool
+* **ESLint** (v8.45.0) - Code quality
+* **Nestify** - Hosting and deployment
 
 ## ✨ Features
 
-* **Responsive Layout:** Full adaptability for mobile, tablet, and desktop viewports.
-* **Filtering & Sorting:** Dynamic controls to sort and filter products (e.g., by price, age, or name).
-* **Product Details:** Dedicated pages for detailed information on each mobile device.
-* **Type Safety:** Strong type checking across the entire application using TypeScript.
+* **Responsive Layout:** Optimized for different screen sizes and devices, responses on width 320px, 640px, 1200px and 1440px,
+* **Navigation:** react-router-dom library is used in the application to enable navigation between multiple pages, and URL-based search parameters saved when navigating.
+* **Favorites & Cart:** adding products to favorites or shopping cart, with total price calculation.
+* **Product Filtering:** Filter products by capacity and color inside product card.
+* **Sorting:** Sort products based on criteris: year, price, alphabetically.
+* **Pagination:** Navigate through large lists of products, opportunity to choose number of items per page, and number of pages depends on this.
+* **Sticky header:** Keeps the header visible as you scroll.
+* **Scroll to Top Button:** Easily return to the top of the page.
+* **Loader:** Indicates loading status for a better user experience.
+* **Product Details:** Dedicated pages for detailed information on
 
 ## 🏗️ Getting Started
 
